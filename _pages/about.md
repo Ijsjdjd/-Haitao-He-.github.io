@@ -1,321 +1,76 @@
-﻿---
+---
 permalink: /
 author_profile: true
 stylesheets:
   - /assets/css/home.css
-redirect_from: 
-  - /about/
-  - /about.html
 ---
-<h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my Homepage!</h1>
 
-Hi! I work on AI, survive on instant noodles, and submit papers 3 minutes before deadlines.
-
-Feel free to reach out if you are interested in collaboration or potential opportunities.
-
-News
----------------
-<div class="news-box">
-  <ul class="news-list">
-
-<li><span class="news-date"><em>2026.10</em></span> 🚀🚀 Submitted a paper 3 minutes before the deadline.</li>
-
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-<li><span class="news-date"><em>2026.09</em></span> 📉📉 My GPU resigned before I did.</li>
-<li><span class="news-date"><em>2026.08</em></span> ☕☕ Survived on coffee for 72 consecutive hours.</li>
-
-<li><span class="news-date"><em>2026.05</em></span> 🎉🎉 I begin my internship at Weijia.</li>
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-
-<li><span class="news-date"><em>2026.07</em></span> 🎉🎉 Promoted from intern to “experienced intern”.</li>
-<li><span class="news-date"><em>2026.06</em></span> 🤡🤡 Accidentally deleted the production database.</li>
-
-<li><span class="news-date"><em>2026.05</em></span> 🎉🎉 I begin my internship at Haidilao.</li>
-<li><span class="news-date"><em>2025.12</em></span> 😅😅 Unexpectedly got fired.</li>
-
-<li><span class="news-date"><em>2024.10</em></span> 🎉🎉 I began my studies at MIT.</li>
-  </ul>
-</div>
-
-Experience
---------------
-
-<div class="experience-container">
-
-  <div class="experience-card">
-      <img src="images/haidilao.png" alt="Haidilao logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Haidilao</strong><br>
-          <em>2026.05 - Present</em><br>
-          LLM Engineer Intern advised by <a href="https://wd7ang.github.io/"><em>Weidong Tang</em></a><br>
-          <span style="color:#888;">Main contribution: teaching hotpot robots to understand human emotions.</span>
+<div class="wow-page" id="about">
+  <section class="wow-hero">
+    <div class="wow-hero-copy">
+      <div class="wow-eyebrow">RESEARCH PORTFOLIO · 2026</div>
+      <h1>Building systems<br><span>that learn.</span></h1>
+      <p class="wow-lead">I work on <strong>foundation-model training</strong>, agentic infrastructure and quantitative research — from scientific data to reliable evaluation.</p>
+      <div class="wow-actions">
+        <a class="wow-button wow-button--primary" href="#projects">Explore the work <span>↗</span></a>
+        <a class="wow-button" href="mailto:18944499902@163.com">Get in touch <span>✉</span></a>
+        <a class="wow-text-link" href="{{ site.baseurl }}/zh/">中文主页 →</a>
       </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="images/weijia.png" alt="Weijia logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Weijia</strong><br>
-          <em>2026.01 - 2026.03</em><br>
-          Machine Learning Intern advised by <a href="https://selen-suyue.github.io/"><em>Yue Su</em></a><br>
-          <span style="color:#888;">Successfully reduced GPU happiness by 97%.</span>
-      </div>
-  </div>
-
-  <div class="experience-card">
-      <img src="images/mit.png" alt="MIT logo" class="experience-logo">
-      <div class="experience-info">
-          <strong>Massachusetts Institute of Technology</strong><br>
-          <em>2023.09 - Present</em><br>
-          Rank 5/99, B.E at <a href="https://ste.xidian.edu.cn/"><em>School of Telecommunication Engineering</em></a><br>
-          <span style="color:#888;">Research interests include large models, multimodal learning, and surviving deadlines.</span>
-      </div>
-  </div>
-</div>
-
-
-Publications
---------------
-<button class="pub-button active" onclick="filterPublications(event, 'all')">Core Publications</button>
-<button class="pub-button" onclick="filterPublications(event, 'list')">Full Publications List</button>
-
-(* equal contribution · &dagger; corresponding author · &Dagger; project leader)
-
-<div id="core-publications" class="publication-view" data-publication-view="core">
-<div class="publication-card" data-category="all"> 
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/sleep.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
-    </div> 
-    <div>
-      <strong>SleepFormer: Towards Fully Autonomous Deadline Extension via Large Language Models</strong><br>
-      <i style="font-size: 13px;">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </i><br> 
-      We present SleepFormer, the first framework capable of automatically generating convincing excuses for missed deadlines, skipped meetings, and unfinished experiments.
-      <br> 
-      <b><i style="color:#83a1c7;">ACL 3026 Oral &nbsp;
-      </i></b> 
-      <a href=""><em>[arXiv]</em></a> 
-      <a href=""><em>[code]</em></a> 
     </div>
-  </div> 
-</div>
-
-
-<div class="publication-card" data-category="all"> 
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/gpu.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
-    </div> 
-    <div>
-      <strong>Are GPUs Emotionally Stable? A Large-Scale Empirical Study Under 24/7 Training Stress</strong><br>
-      <i style="font-size: 13px;">
-        NVIDIA RTX 9090*,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </i><br> 
-      We conduct the first psychological evaluation of modern GPUs under extreme training conditions. Results reveal that 87% of devices exhibit symptoms of burnout after repeated “just one more epoch” requests.
-      <br> 
-      <b><i style="color:#83a1c7;">ICLR 3026 &nbsp;
-      </i></b> 
-      <a href=""><em>[arXiv]</em></a> 
-      <a href=""><em>[code]</em></a> 
+    <div class="wow-hero-orbit" aria-label="Foundation models, agents and quantitative research">
+      <div class="wow-orbit wow-orbit--one"></div>
+      <div class="wow-orbit wow-orbit--two"></div>
+      <div class="wow-orbit wow-orbit--three"></div>
+      <div class="wow-orbit-core">HH</div>
+      <span class="wow-orbit-label wow-orbit-label--top">FOUNDATION<br>MODELS</span>
+      <span class="wow-orbit-label wow-orbit-label--right">AGENTS</span>
+      <span class="wow-orbit-label wow-orbit-label--left">QUANT</span>
     </div>
-  </div> 
-</div>
+  </section>
 
-<div class="publication-card" data-category="all"> 
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;"> 
-      <img src="images/noodle.png" alt="wog" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;"> 
-    </div> 
-    <div>
-      <strong>Instant Noodles as a Scalable Training Infrastructure for Graduate Students</strong><br>
-      <i style="font-size: 13px;">
-        Noodles&Dagger;,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </i><br> 
-      We introduce Noodle-Scaling Law, showing that research productivity increases logarithmically with instant noodle consumption before collapsing catastrophically at 3 a.m.
-      <br> 
-      <b><i style="color:#83a1c7;">ICML 3026 &nbsp;
-      </i></b> 
-      <a href=""><em>[arXiv]</em></a> 
-      <a href=""><em>[code]</em></a> 
+  <section class="wow-metrics" aria-label="Selected metrics">
+    <div><strong>1,714</strong><span>executable SQLite environments</span></div>
+    <div><strong>10,660</strong><span>MCP tools built</span></div>
+    <div><strong>14,770</strong><span>distillation SFT trajectories</span></div>
+    <div><strong>0.15 → 0.25</strong><span>post-cost CSI 300 IR</span></div>
+  </section>
+
+  <section class="wow-section" id="experience">
+    <div class="wow-section-heading">
+      <div><span class="wow-kicker">01 · EXPERIENCE</span><h2>Research in<br>the loop.</h2></div>
+      <p>IQuest Research · Ubiquant Investment<br>Research Intern · Beijing · May 2026 — Present</p>
     </div>
-  </div> 
-</div>
-
-</div>
-
-
-<div id="full-publications" class="publication-view" data-publication-view="list" hidden>
-  <ul class="full-publication-list">
-    <li>
-      <span class="pub-list-badge">ACL 3030</span>
-      <span class="pub-list-title">SleepFormer v5: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3029</span>
-      <span class="pub-list-title">SleepFormer v4: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3028</span>
-      <span class="pub-list-title">SleepFormer v3: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3027</span>
-      <span class="pub-list-title">SleepFormer v2: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ACL 3026</span>
-      <span class="pub-list-title">SleepFormer: Towards Fully Autonomous Deadline Extension via Large Language Models</span><br>
-      <span class="pub-list-authors">
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang</strong>
-        </a>,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-note">Oral.</span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ICLR 3026</span>
-      <span class="pub-list-title">Are GPUs Emotionally Stable? A Large-Scale Empirical Study Under 24/7 Training Stress</span><br>
-      <span class="pub-list-authors">
-        NVIDIA RTX 9090*,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-    <li>
-      <span class="pub-list-badge">ICLR 3026</span>
-      <span class="pub-list-title">Instant Noodles as a Scalable Training Infrastructure for Graduate Students</span><br>
-      <span class="pub-list-authors">
-        Noodles&Dagger;,
-        <a href="https://selen-suyue.github.io/" target="_blank">
-          <strong>Yue Su*</strong>
-        </a>,
-        <a href="https://wd7ang.github.io" target="_blank">
-          <strong>Weidong Tang&dagger;</strong>
-        </a>.
-      </span>
-      <span class="pub-list-links"><a href="">[arXiv]</a><a href="">[code]</a></span>
-    </li>
-  </ul>
-</div>
-
-<script src="assets/js/show_publications.js"></script>
-<script src="assets/js/pub_media_rotator.js"></script>
-
-
-Projects
---------
-<div class="project-card" data-category="project"> 
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 320px; height: 180px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="images/2.png" alt="ManiUniCon" style="width: 320px; height: 180px; object-fit: contain; display: block; margin: 0 auto;">
+    <div class="wow-timeline">
+      <article class="wow-timeline-item"><div class="wow-timeline-meta"><span>UBio-ARCK</span><span>General Trace · Agentic Eval</span></div><h3>Open-source agent evaluation</h3><p>Core contributor to an open-source omni-evaluation Agent benchmark; led the General Trace and built an automated Agentic Eval pipeline.</p></article>
+      <article class="wow-timeline-item"><div class="wow-timeline-meta"><span>Mid-Training</span><span>Scientific research data</span></div><h3>From papers to annealing data</h3><p>Selected research questions, methods and solutions from papers, then used models to synthesize high-quality annealing data for mid-training.</p></article>
+      <article class="wow-timeline-item"><div class="wow-timeline-meta"><span>Teacher-model SFT &amp; MOPD</span><span>Next-stage merge</span></div><h3>Training-ready teacher assets</h3><p>Built distillation SFT data covering Table Join/Reformat, Zebra Puzzle/Spatial Reasoning and mathematics to train multiple teacher models and provide inputs for subsequent MOPD merging.</p></article>
     </div>
-    <div> 
-      <strong>WowPage</strong><br>
-      <i style="font-size: 13px;">
-        <a href="https://wd7ang.github.io" target="_blank"><strong>Weidong Tang</strong></a>,
-        <a href="https://selen-suyue.github.io/" target="_blank"><strong>Yue Su</strong></a>.
-      </i><br>
-      In collaboration with Yue Su, I refined and improved his original homepage template. A clean standalone template version is coming soon.
-      <br> 
-      <b><i style="color:#83a1c7;">Project &nbsp;</i></b> 
-      <a href=""><em>[code]</em></a> 
+  </section>
+
+  <section class="wow-section" id="projects">
+    <div class="wow-section-heading"><div><span class="wow-kicker">02 · SYSTEMS</span><h2>A pipeline,<br>not a slide.</h2></div><p>Mid-Training · Agentic Environment Scaling · Teacher SFT/MOPD · Benchmark Evaluation</p></div>
+    <div class="wow-flow">
+      <div><b>01</b><h3>Mid-Training</h3><p>Paper-grounded research questions, methods and solutions become high-quality annealing data.</p></div>
+      <div><b>02</b><h3>Infra</h3><p>Self-evolving environments, tools and tasks form a reusable agent-training base.</p></div>
+      <div><b>03</b><h3>Teacher SFT</h3><p>Distillation trajectories train and screen multiple teacher models.</p></div>
+      <div><b>04</b><h3>Evaluation</h3><p>Private benchmark suites make model behavior measurable and comparable.</p></div>
     </div>
-  </div> 
+    <div class="wow-project-grid">
+      <article class="wow-project-card"><span class="wow-card-tag">AGENT INFRASTRUCTURE</span><h3>Agentic Environment Scaling</h3><p>Agent World turns executable environments and MCP tools into a reusable substrate for data generation, SFT and future RL training.</p><ul><li><strong>1,714</strong> executable SQLite environments</li><li><strong>10,660</strong> MCP tools</li><li><strong>8,582</strong> multi-turn tasks with self-evolving expansion</li></ul><div class="wow-tags"><span>SQLite</span><span>MCP</span><span>Agent infra</span><span>Self-evolving</span></div></article>
+      <article class="wow-project-card"><span class="wow-card-tag">TEACHER-MODEL PIPELINE</span><h3>Distillation SFT &amp; MOPD</h3><p>After mid-training, mathematical SFT data and task-specific trajectories train multiple teacher models and provide inputs for downstream MOPD merging.</p><ul><li><strong>4.55M</strong> mathematical SFT examples labelled and filtered</li><li><strong>14,770</strong> distillation SFT trajectories</li><li>Table Join/Reformat · Zebra Puzzle/Spatial Reasoning</li></ul><div class="wow-tags"><span>SFT</span><span>Distillation</span><span>Teacher models</span><span>MOPD</span></div></article>
+    </div>
+  </section>
+
+  <section class="wow-section" id="publications">
+    <div class="wow-section-heading"><div><span class="wow-kicker">03 · RESEARCH</span><h2>Evidence<br>over noise.</h2></div><p>Selected publications and current research directions.</p></div>
+    <div class="wow-publications">
+      <article><span>KDD 2026 · ACCEPTED</span><h3><i>NMRGym: A Comprehensive Benchmark for Nuclear Magnetic Resonance Based Molecular Structure Elucidation.</i></h3><p>Core contributor.</p></article>
+      <article><span>ACM MM 2026 · ACCEPTED</span><h3><i>Knowing the Self, Understanding the World: A Dual-Cognition Benchmark for UAV Spatio-temporal Reasoning with MLLMs.</i></h3><p>Core contributor.</p></article>
+      <article><span>NATURE MI · UNDER REVIEW</span><h3><i>Generative model for discovering microbiome-derived peptide ligands of G protein-coupled receptors.</i></h3><p>Core contributor.</p></article>
+    </div>
+  </section>
+
+  <section class="wow-section" id="quant"><div class="wow-section-heading"><div><span class="wow-kicker">04 · QUANT</span><h2>Agents that<br>remember.</h2></div><p>Recursive Self-Improvement for financial-factor discovery.</p></div><article class="wow-quant-card"><div class="wow-quant-copy"><span class="wow-card-tag">AI QUANT FACTOR DISCOVERY · RSI</span><h3>Macro brain → Micro brain → Cross-brain memory</h3><p>The macro brain reads reports and retrieves evidence; specialist Agents generate hypotheses; the micro brain turns them into factor code, mutates and tests them, and checks their financial logic; a cross-agent brain summarizes each round and feeds the memory back into the next iteration.</p></div><div class="wow-quant-stats"><div><strong>2,500</strong><span>candidate factors</span></div><div><strong>2</strong><span>effective factors</span></div><div><strong>0.15 → 0.25</strong><span>post-cost IR</span></div></div></article></section>
+
+  <section class="wow-section" id="contact"><div class="wow-contact"><div><span class="wow-kicker">05 · CONTACT</span><h2>Let’s build a<br>better loop.</h2><p>For research conversations, PhD opportunities or collaborations around model training, agents and quantitative research, feel free to reach out.</p></div><div class="wow-contact-links"><a href="mailto:18944499902@163.com"><small>Email</small><strong>18944499902@163.com</strong><b>↗</b></a><a href="tel:+8618944499902"><small>Phone</small><strong>+86 189 4449 9902</strong><b>↗</b></a><a href="{{ site.baseurl }}/files/English_CV.tex"><small>CV</small><strong>Download LaTeX CV</strong><b>↓</b></a></div></div></section>
 </div>
-
-
-Awards
---------
-- *3026.01*, Successfully survived 17 consecutive paper deadlines without touching grass.
-- *3025.09*, Best Excuse Generation Award, SleepFormer Research Group.
-- *3025.06*, Outstanding Contributor to Instant Noodle Consumption Efficiency.
-- *3024.12*, GPU Emotional Damage Scholarship (Full Funding).
-- *3024.08*, Ranked Top 0.1% Worldwide in “I’ll Fix It Tomorrow”.
-
-
-
-Services
---------
-- *3026.06 – Present*, Chief Coffee Consumption Officer, Midnight Research Lab.
-- *3026.01 – Present*, Full-time Debugger of Problems Created by Myself.
-- Reviewer for Journal of Unfinished Projects.
-- Area Chair for Conference on Last-Minute Submissions (CLMS).
-- Volunteer Therapist for Burned-out GPUs.
-
-
-
-Talks
---------
-- *3026.07*, “How to Finish a Paper 3 Minutes Before Deadline.”
-- *3026.05*, “Large Language Models and Large Amounts of Caffeine.”
-- *3025.11*, “On the Emotional Stability of GPUs Under Extreme Stress.”
-- *3025.08*, “Instant Noodles as Scalable Research Infrastructure.”
-- *3025.03*, “Sleep is Temporary, Camera-Ready is Forever.”

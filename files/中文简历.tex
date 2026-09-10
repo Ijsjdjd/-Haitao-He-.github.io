@@ -1,0 +1,55 @@
+% 在 Overleaf 中选择 XeLaTeX 编译器
+\documentclass[9pt,a4paper]{ctexart}
+\usepackage[margin=0.48in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1pt}
+\setlist[itemize]{label=\textbullet,leftmargin=1.35em,itemsep=0.5pt,topsep=1pt,parsep=0pt}
+\titleformat{\section}{\normalsize\bfseries}{}{0pt}{}[\vspace{-3pt}\titlerule]
+\titlespacing*{\section}{0pt}{5pt}{2pt}
+\newcommand{\entry}[3]{\textbf{#1}\hfill #2\\#3\par}
+\newcommand{\project}[1]{\vspace{1.5pt}\textbf{#1}\par}
+\begin{document}
+
+\begin{center}
+  {\Large\bfseries Haitao He}\\[1pt]
+  \href{mailto:18944499902@163.com}{18944499902@163.com} \;|\; (+86) 18944499902 \;|\; 西安
+\end{center}
+
+\section{教育背景}
+\entry{西北工业大学 \& 伦敦玛丽女王大学}{2023.09 -- 2027.06}{NPU--QMUL 联合学位项目，工学学士（荣誉），全英文授课 \hfill GPA 90/100 \;|\; 一等荣誉}
+
+\section{科研实习经历}
+\entry{九坤至知创新研究院（IQuest Research）}{2026.05 -- 至今}{研究实习生 --- 基模型训练与 Agent 系统 \hfill 北京}
+\begin{itemize}
+  \item UBio-ARCK：开源全域 Agent 评测基准核心贡献者，负责 General Trace 并搭建自动化 Agentic Eval 流程。
+  \item \textbf{Mid-training 数据：}从论文中筛选研究问题、方法和解决方案，再交给模型合成高质量退火数据，用于 Mid-training 训练。
+  \item \textbf{Teacher-model SFT 与 MOPD：}搭建覆盖 Table Join/Reformat、Zebra Puzzle/Spatial Reasoning 与数学的蒸馏 SFT 数据，用于训练多个 teacher model，并作为后续 MOPD 合板输入。
+\end{itemize}
+
+\section{论文发表}
+\begin{itemize}
+  \item \textit{NMRGym: A Comprehensive Benchmark for Nuclear Magnetic Resonance Based Molecular Structure Elucidation.} 核心作者，KDD 2026 已录用。
+  \item \textit{Knowing the Self, Understanding the World: A Dual-Cognition Benchmark for UAV Spatio-temporal Reasoning with MLLMs.} 核心作者，ACM Multimedia 2026 已录用。
+  \item \textit{Generative model for discovering microbiome-derived peptide ligands of G protein-coupled receptors.} 核心作者，\textit{Nature Machine Intelligence} 在投。
+\end{itemize}
+
+\section{代表性项目}
+\project{基模型训练全流程 --- Mid-Training、Agentic Environment Scaling、Teacher SFT 与 MOPD、Benchmark 评测}
+\begin{itemize}
+  \item \textbf{Mid-Training：}从论文抽取研究问题、方法、实验设置和解决方案，用模型合成高质量退火数据，增强 scientific-reasoning 能力。
+  \item \textbf{Infra (Agentic Environment Scaling)：}搭建 1,714 个可执行 SQLite 环境和 10,660 个 MCP 工具，合成 8,582 个多轮任务，构建具备环境/工具/任务自进化扩展能力的可复用 Agent 训练基础设施，支持 SFT 数据生成/训练及后续 RL 训练。
+  \item \textbf{Teacher-Model SFT 与 MOPD：}完成 CPT 与 Scientific Mid-Training 后，给 455 万条数学 SFT 数据打标以及筛选，构建覆盖 Table Join/Reformat、Zebra Puzzle/Spatial Reasoning 的蒸馏 SFT 轨迹，用于 SFT 训练多个 teacher model，作为后续 MOPD 合板输入。
+  \item \textbf{评测Benchmark：}自建新的私有 LiveBench 推理/语言/数据分析、标准/高级 IFBench、MMLU 2026 和长程 Terminal Benchmark 数据集。
+\end{itemize}
+
+\project{AI 量化因子挖掘 --- Agent 框架与递归自进化}
+\begin{itemize}
+  \item 设计 Recursive Self-Improvement（RSI）：RSI 系统中，宏观脑阅读报告，检索证据、研究原型，利用专长 Agent 生成假设；微观脑将假设转变成因子代码、变异、测试，以及确定因子是否具有金融逻辑，交叉脑将一轮研究结果总结然后作为记忆输入回宏观脑继续下一轮迭代。
+  \item 将候选得分、失败反馈和精英因子写回下一轮记忆作为自进化，结合防未来函数检查、跨 Agent 归因和独立验收筛选。累计得到约 2,500 个候选因子，筛选得两个有效因子，沪深 300 策略费后 IR 从 0.15 提升至 0.25。
+\end{itemize}
+
+\end{document}

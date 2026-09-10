@@ -1,21 +1,21 @@
 locale                   : "en-US"
-title                    : "WowPage"
+title                    : "Haitao He"
 title_separator          : "-"
-name                     : "Your Name"
-description              : &description "A clean academic homepage template."
+name                     : "Haitao He"
+description              : &description "Foundation-model training, agent systems and quantitative research."
 url                      : ""
 baseurl                  : ""
 repository               : ""
 
 author:
-  avatar           : "1.png"
-  name             : "Your Name"
+  avatar           : "profile.svg"
+  name             : "Haitao He"
   pronouns         :
-  bio              : "Student and researcher."
-  location         : "City, Country"
-  employer         : "Institution or Company"
+  bio              : "Foundation-model training · Agent systems · Quantitative research"
+  location         : "Xi'an, China"
+  employer         : "IQuest Research, Ubiquant Investment"
   uri              :
-  email            : "name@example.com"
+  email            : "18944499902@163.com"
 
   arxiv            :
   googlescholar    :

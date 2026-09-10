@@ -1,0 +1,59 @@
+% Compile with pdfLaTeX on Overleaf
+\documentclass[9pt,a4paper]{article}
+\usepackage[margin=0.48in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1pt}
+\setlist[itemize]{leftmargin=1.25em,itemsep=0.5pt,topsep=1pt,parsep=0pt}
+\titleformat{\section}{\normalsize\bfseries\scshape}{}{0pt}{}[\vspace{-3pt}\titlerule]
+\titlespacing*{\section}{0pt}{5pt}{2pt}
+\newcommand{\entry}[3]{\textbf{#1}\hfill #2\\#3\par}
+\newcommand{\project}[1]{\vspace{1.5pt}\textbf{#1}\par}
+\begin{document}
+
+\begin{center}
+  {\Large\bfseries Haitao He}\\[1pt]
+  \href{mailto:18944499902@163.com}{18944499902@163.com} \;|\; (+86) 18944499902 \;|\; Xi'an, China
+\end{center}
+
+\section{Education}
+\entry{Northwestern Polytechnical University \& Queen Mary University of London}{Sep 2023 -- Jun 2027}{NPU--QMUL Joint Programme, BEng (Hons), English-taught \hfill GPA 90/100 \;|\; First Class}
+
+\section{Research Experience}
+\entry{IQuest Research, Ubiquant Investment}{May 2026 -- Present}{Research Intern --- Foundation-Model Training \& Agent Systems \hfill Beijing, China}
+\begin{itemize}
+  \item \textbf{UBio-ARCK:} Core contributor to an open-source omni-evaluation Agent benchmark; led the General Trace and built an automated Agentic Eval pipeline.
+  \item \textbf{Mid-training data:} Selected research questions, methods, and solutions from papers, then used models to synthesize high-quality annealing data for mid-training.
+  \item \textbf{Teacher-model SFT \& MOPD:} Built distillation SFT data covering Table Join/Reformat, Zebra Puzzle/Spatial Reasoning, and mathematics to train multiple teacher models and provide inputs for subsequent MOPD merging.
+\end{itemize}
+
+\section{Publications}
+\begin{itemize}
+  \item \textit{NMRGym: A Comprehensive Benchmark for Nuclear Magnetic Resonance Based Molecular Structure Elucidation.} Core Contributor. Accepted, KDD 2026.
+  \item \textit{Knowing the Self, Understanding the World: A Dual-Cognition Benchmark for UAV Spatio-temporal Reasoning with MLLMs.} Core Contributor. Accepted, ACM Multimedia 2026.
+  \item \textit{Generative model for discovering microbiome-derived peptide ligands of G protein-coupled receptors.} Core Contributor. Under review, \textit{Nature Machine Intelligence}.
+\end{itemize}
+
+\section{Selected Projects}
+\project{Foundation-Model Training Pipeline --- Mid-Training, Agentic Environment Scaling, Teacher SFT \& MOPD, Benchmark Evaluation}
+\begin{itemize}
+  \item \textbf{Mid-Training:} Extracted research questions, methods, experimental settings, and solutions from papers, then used models to synthesize high-quality annealing data for scientific-reasoning capability.
+  \item \textbf{Infra (Agentic Environment Scaling):} Built 1,714 executable SQLite environments and 10,660 MCP tools, synthesized 8,582 multi-turn tasks, and established reusable infrastructure with self-evolving environment/tool/task expansion for SFT data/training and future RL training.
+  \item \textbf{Teacher-Model SFT \& MOPD:} After CPT and scientific mid-training, labelled and filtered 4.55M mathematical SFT examples (recall@8 97.2\%, pipeline agreement 0.819); built distillation SFT trajectories covering Table Join/Reformat and Zebra Puzzle/Spatial Reasoning to train multiple teacher models and provide inputs for subsequent MOPD merging.
+  \item \textbf{Benchmark Evaluation:} Built new private LiveBench Reasoning/Language/Data Analysis, Standard/Advanced IFBench, MMLU 2026, and Long-Horizon Terminal benchmark datasets.
+\end{itemize}
+
+\project{AI Quant Factor Discovery --- Agent Framework \& Recursive Self-Improvement}
+\begin{itemize}
+  \item Designed Recursive Self-Improvement (RSI): the macro brain reads reports, retrieves evidence and research prototypes, and uses specialist Agents to generate hypotheses; the micro brain turns hypotheses into factor code, mutates and tests them, and checks their financial logic; a cross-agent brain summarizes each round and feeds it back as memory for the next iteration.
+  \item Wrote candidate scores, failure feedback, and elite factors into next-round memory for self-evolution, combined with no-look-ahead checks, cross-agent attribution, and independent validation. Generated about 2,500 candidate factors and selected two effective factors, lifting post-cost CSI 300 portfolio IR from 0.15 to 0.25.
+\end{itemize}
+
+\end{document}

@@ -1,18 +1,7 @@
-# Authors
-
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+# Optional author records. The homepage uses the author block in _config.yml.
+Haitao He:
+  name: "Haitao He"
+  email: "18944499902@163.com"
+  bio: "Foundation-model training · Agent systems · Quantitative research"
+  avatar: "profile.svg"
+  location: "Xi'an, China"
