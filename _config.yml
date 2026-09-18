@@ -3,9 +3,9 @@ title                    : "Haitao He"
 title_separator          : "-"
 name                     : "Haitao He"
 description              : &description "Foundation-model training, agent systems and quantitative research."
-url                      : ""
-baseurl                  : ""
-repository               : ""
+url                      : "https://ijsjdjd.github.io"
+baseurl                  : "/-Haitao-He-.github.io"
+repository               : "Ijsjdjd/-Haitao-He-.github.io"
 
 author:
   avatar           : "profile.svg"
